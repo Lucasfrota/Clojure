@@ -2,10 +2,14 @@
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
   (println "Hello stranger"))
 
-(defn soma
+(defn sum
 	[a b]
 	(+ a b))
+
+(defn junta
+	[palavra1 palavra2]
+	(println (str palavra1 " " palavra2 ) )
+	)
